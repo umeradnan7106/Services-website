@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { type Metadata } from 'next'
 import {
@@ -50,6 +50,8 @@ function Navbar() {
             {/* Normal Links */}
             {[
               { href: "/", label: "Home" },
+              { href: "/client-portal", label: "Client Portal" },
+              { href: "/engineer-portal", label: "Engineer Portal" },
               { href: "/aboutus", label: "About Us" },
               { href: "/contact", label: "Contact Us" },
             ].map((item) => (

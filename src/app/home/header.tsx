@@ -64,6 +64,20 @@ function Header() {
         </div>
 
         <div className="relative group">
+          <Link href="/client-portal" className="transition-all duration-300">
+            <div className="text-[#38b6ff] text-[16px] group-hover:font-bold">Client Portal</div>
+          </Link>
+          <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#38b6ff] group-hover:w-full transition-all duration-300"></div>
+        </div>
+
+        <div className="relative group">
+          <Link href="/engineer-portal" className="transition-all duration-300">
+            <div className="text-[#38b6ff] text-[16px] group-hover:font-bold">Engineer Portal</div>
+          </Link>
+          <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#38b6ff] group-hover:w-full transition-all duration-300"></div>
+        </div>
+
+        <div className="relative group">
           <Link href="/aboutus" className="transition-all duration-300">
             <div className="text-[#38b6ff] text-[16px] group-hover:font-bold">About Us</div>
           </Link>
